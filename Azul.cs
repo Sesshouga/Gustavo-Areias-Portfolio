@@ -61,7 +61,6 @@ public class Azul : MonoBehaviour
 	}
 	IEnumerator Reinicia()
 	{
-		//yield return StartCoroutine(WaitForSeconds(2.0f));
 		yield return new WaitForSecondsRealtime(2f);
 		Reload = true;
 	}
