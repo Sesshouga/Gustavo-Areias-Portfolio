@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AzulMaior : MonoBehaviour {
+public class AzulMaior : MonoBehaviour 
+{
 
 	public int azul = 0;
 	public CameraScript cam;
